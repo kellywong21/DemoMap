@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
                 ui.setCompassEnabled(true);
                 ui.setZoomControlsEnabled(true);
 
+
                 int permissionCheck = ContextCompat.checkSelfPermission(MainActivity.this, Manifest.permission.ACCESS_FINE_LOCATION);
 
                 if (permissionCheck == PermissionChecker.PERMISSION_GRANTED){
